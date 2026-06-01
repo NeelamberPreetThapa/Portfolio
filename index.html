@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="https://ExaltedMercury.com/imgs/fevicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exalted Mercury | High-End Interfaces</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Premium custom scrollbar matching Exalted Mercury dark aesthetic */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #060913;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1e293b;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3b82f6;
+        }
+        /* Smooth blur scaling for premium card designs */
+        .portfolio-card:hover .card-bg {
+            transform: scale(1.08);
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body class="bg-[#060913] text-white font-sans overflow-x-hidden">
+
+    <header class="relative h-screen w-full flex items-center justify-center overflow-hidden bg-[#060913]">
+        
+        <video 
+            id="bgVideo"
+            autoplay 
+            loop 
+            muted
+            playsinline 
+            preload="auto"
+            class="absolute top-1/2 left-1/2 min-w-full min-h-full w-auto h-auto -translate-x-1/2 -translate-y-1/2 object-cover z-10"
+        >
+            <source src="https://res.cloudinary.com/duk39pgie/video/upload/v1780285075/20260601080917989_zyhxhp.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        
+        <div class="absolute inset-0 z-20 bg-gradient-to-b from-[#060913]/30 via-[#060913]/60 to-[#060913]"></div>
+
+        <nav class="absolute top-0 left-0 w-full z-30 px-8 py-6 flex justify-between items-center hidden md:flex">
+            <div class="text-2xl font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-cyan-400">
+                EXALTED MERCURY
+            </div>
+            <div class="space-x-8 text-xs font-semibold tracking-widest uppercase text-gray-400">
+                <a href="#portfolio" class="hover:text-cyan-400 transition duration-300">Portfolio</a>
+                <a href="#features" class="hover:text-cyan-400 transition duration-300">Features</a>
+                <a href="#connect" class="hover:text-cyan-400 transition duration-300">Connect</a>
+            </div>
+        </nav>
+
+        <div class="relative z-30 text-center px-4 max-w-5xl mt-12">
+            <h1 class="text-5xl md:text-8xl font-black tracking-tight mb-8 uppercase leading-none" data-aos="zoom-out" data-aos-duration="1500">
+                Exalted <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-500">
+                    Mercury
+                </span>
+            </h1>
+            
+            <p class="text-base md:text-lg text-gray-400 mb-10 max-w-2xl mx-auto tracking-widest uppercase font-light" data-aos="fade-up" data-aos-delay="400">
+                Crafting Next-Gen Immersive Digital Ecosystems
+            </p>
+            
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4" data-aos="fade-up" data-aos-delay="700">
+                <a href="#portfolio" class="w-full sm:w-auto inline-block bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-600 hover:to-blue-700 text-white font-bold px-10 py-4 rounded-full shadow-2xl transform hover:scale-105 transition duration-300 tracking-widest uppercase text-xs text-center">
+                    View Portfolio
+                </a>
+                <a href="#connect" class="w-full sm:w-auto inline-block bg-white/5 border border-white/10 hover:bg-white/10 text-white font-bold px-10 py-4 rounded-full shadow-2xl transform hover:scale-105 transition duration-300 tracking-widest uppercase text-xs text-center backdrop-blur-md">
+                    Instant Booking
+                </a>
+            </div>
+        </div>
+
+        <div class="absolute bottom-8 z-30 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </header>
+
+    <section id="portfolio" class="py-28 px-6 bg-[#04060d] relative z-30 border-b border-gray-950">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20">
+                <span class="text-cyan-400 text-xs font-bold tracking-widest uppercase block mb-3">Selected Deployments</span>
+                <h2 class="text-4xl md:text-6xl font-black tracking-tight uppercase" data-aos="fade-up">Our Live Showcase</h2>
+                <div class="w-16 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto rounded-full mt-4" data-aos="width"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <a href="https://yogioffering.com/" target="_blank" class="portfolio-card relative block group bg-[#0d1222] border border-gray-900 rounded-2xl overflow-hidden p-8 transition-all duration-500 hover:border-cyan-500/40" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-bg absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-transparent opacity-0 transition-all duration-700 pointer-events-none"></div>
+                    <span class="text-gray-500 font-mono text-xs block mb-4">// 01 LIVE SYSTEM</span>
+                    <h3 class="text-2xl font-bold tracking-tight mb-2 text-white group-hover:text-cyan-400 transition duration-300">Yogi Offering</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">High-performance custom E commerce tailored for dynamic client engagement and seamless service flows.</p>
+                    <span class="inline-flex items-center space-x-2 text-xs font-semibold uppercase text-cyan-400 tracking-wider">Launch Platform ↗</span>
+                </a>
+
+                <a href="https://www.exaltedmercury.com/" target="_blank" class="portfolio-card relative block group bg-[#0d1222] border border-gray-900 rounded-2xl overflow-hidden p-8 transition-all duration-500 hover:border-blue-500/40" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-bg absolute inset-0 bg-gradient-to-tr from-blue-500/20 to-transparent opacity-0 transition-all duration-700 pointer-events-none"></div>
+                    <span class="text-gray-500 font-mono text-xs block mb-4">// 02 PRO EdHelp</span>
+                    <h3 class="text-2xl font-bold tracking-tight mb-2 text-white group-hover:text-blue-400 transition duration-300">Exalted Mercury</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">Flagship web Learing infrastructure featuring production-grade technical pedagogy and optimized layouts.</p>
+                    <span class="inline-flex items-center space-x-2 text-xs font-semibold uppercase text-blue-400 tracking-wider">Launch Platform ↗</span>
+                </a>
+
+                <a href="https://pripridesign.com/" target="_blank" class="portfolio-card relative block group bg-[#0d1222] border border-gray-900 rounded-2xl overflow-hidden p-8 transition-all duration-500 hover:border-purple-500/40" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-bg absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-transparent opacity-0 transition-all duration-700 pointer-events-none"></div>
+                    <span class="text-gray-500 font-mono text-xs block mb-4">// 03 DESIGN SUITE</span>
+                    <h3 class="text-2xl font-bold tracking-tight mb-2 text-white group-hover:text-purple-400 transition duration-300">PriPri Design</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">Ultra-premium aesthetic design framework focusing heavily on high-fidelity user journeys and brand identity.</p>
+                    <span class="inline-flex items-center space-x-2 text-xs font-semibold uppercase text-purple-400 tracking-wider">Launch Platform ↗</span>
+                </a>
+
+                <a href="https://theprojectshunya.com/index.html" target="_blank" class="portfolio-card relative block group bg-[#0d1222] border border-gray-900 rounded-2xl overflow-hidden p-8 transition-all duration-500 hover:border-teal-500/40 md:col-span-1 lg:col-span-1" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-bg absolute inset-0 bg-gradient-to-tr from-teal-500/20 to-transparent opacity-0 transition-all duration-700 pointer-events-none"></div>
+                    <span class="text-gray-500 font-mono text-xs block mb-4">// 04 MINIMAL DEPLOYMENT</span>
+                    <h3 class="text-2xl font-bold tracking-tight mb-2 text-white group-hover:text-teal-400 transition duration-300">The Project Shunya</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">Zero-overhead, clean architecture deployment optimization crafted for minimalist information delivery channels.</p>
+                    <span class="inline-flex items-center space-x-2 text-xs font-semibold uppercase text-teal-400 tracking-wider">Launch Platform ↗</span>
+                </a>
+
+                <a href="https://www.gcsesolved.com/" target="_blank" class="portfolio-card relative block group bg-[#0d1222] border border-gray-900 rounded-2xl overflow-hidden p-8 transition-all duration-500 hover:border-indigo-500/40 md:col-span-2 lg:col-span-2" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-bg absolute inset-0 bg-gradient-to-tr from-indigo-500/20 to-transparent opacity-0 transition-all duration-700 pointer-events-none"></div>
+                    <span class="text-gray-500 font-mono text-xs block mb-4">// 05 EDTECH PIPELINE</span>
+                    <h3 class="text-2xl font-bold tracking-tight mb-2 text-white group-hover:text-indigo-400 transition duration-300">GCSE Solved</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">Comprehensive education portal engineered natively for UK/US scale course architectures with intensive user engagement workflows.</p>
+                    <span class="inline-flex items-center space-x-2 text-xs font-semibold uppercase text-indigo-400 tracking-wider">Launch Platform ↗</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-28 px-6 max-w-7xl mx-auto relative z-30">
+        <div class="text-center mb-20">
+            <span class="text-blue-400 text-xs font-bold tracking-widest uppercase block mb-3">Core Capabilities</span>
+            <h2 class="text-3xl md:text-5xl font-black uppercase tracking-tight" data-aos="fade-up">Architectural DNA</h2>
+            <div class="w-16 h-1 bg-gradient-to-r from-blue-500 to-indigo-500 mx-auto rounded-full mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-[#0f1422] border border-gray-900 p-8 rounded-2xl hover:border-cyan-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
+                <div class="w-12 h-12 bg-cyan-500/10 text-cyan-400 rounded-xl flex items-center justify-center mb-6 text-xl font-bold">01</div>
+                <h3 class="text-xl font-bold mb-3 uppercase tracking-wide">High-Fidelity Visuals</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Integrated, native streaming pipelines engineered specifically to optimize first-impression conversion rates.</p>
+            </div>
+
+            <div class="bg-[#0f1422] border border-gray-900 p-8 rounded-2xl hover:border-blue-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-12 h-12 bg-blue-500/10 text-blue-400 rounded-xl flex items-center justify-center mb-6 text-xl font-bold">02</div>
+                <h3 class="text-xl font-bold mb-3 uppercase tracking-wide">Fluid Execution</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">Hardware accelerated client layouts maintaining fluid interaction speeds regardless of asset file distribution constraints.</p>
+            </div>
+
+            <div class="bg-[#0f1422] border border-gray-900 p-8 rounded-2xl hover:border-indigo-500/50 transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+                <div class="w-12 h-12 bg-indigo-500/10 text-indigo-400 rounded-xl flex items-center justify-center mb-6 text-xl font-bold">03</div>
+                <h3 class="text-xl font-bold mb-3 uppercase tracking-wide">Bespoke Frameworks</h3>
+                <p class="text-gray-400 text-sm leading-relaxed">From standalone landing architectures to advanced global EdTech course platforms, tailored strictly for high ticket clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="connect" class="py-32 bg-[#04060d] relative overflow-hidden border-t border-gray-950">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[450px] h-[450px] bg-cyan-500/5 rounded-full blur-[120px] pointer-events-none"></div>
+        
+        <div class="relative z-10 max-w-3xl mx-auto px-6 text-center" data-aos="zoom-in">
+            <span class="text-cyan-400 text-xs font-bold tracking-widest uppercase block mb-3">Instant Communication Channel</span>
+            <h2 class="text-4xl md:text-6xl font-black mb-6 uppercase tracking-tight">Initiate Deployment.</h2>
+            <p class="text-gray-400 mb-12 text-sm md:text-base tracking-wide max-w-xl mx-auto font-light leading-relaxed">
+                Have a premium enterprise system, design course platform, or complex automation flow in mind? Tap below to lock in a consultation instantly.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+                <a href="https://wa.me/917895741717?text=Hey%20Exalted%20Mercury,%20I%20would%20like%20to%20discuss%20a%20new%20web%20project." 
+                   target="_blank" 
+                   class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-4 rounded-full shadow-2xl transform hover:scale-105 transition duration-300 tracking-widest uppercase text-xs flex items-center justify-center space-x-3">
+                   <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.863-9.75.002-2.605-1.002-5.054-2.83-6.887A9.682 9.682 0 0 0 12.008 1.15c-5.442 0-9.866 4.372-9.87 9.754-.002 1.83.504 3.619 1.467 5.18l-.988 3.605 3.702-.96c1.513.821 3.09 1.254 4.73 1.255zm8.127-6.52c-.227-.113-1.343-.656-1.551-.73-.208-.076-.359-.113-.51.114-.151.227-.585.73-.717.882-.132.151-.264.17-.49.057-.227-.113-.96-.352-1.828-1.119-.675-.597-1.13-1.334-1.263-1.56-.132-.227-.014-.35.1-.462.103-.102.227-.264.34-.396.113-.132.151-.226.227-.378.075-.151.038-.283-.019-.396-.056-.113-.51-1.21-.699-1.664-.184-.44-.37-.38-.51-.38-.131-.002-.283-.002-.434-.002-.151 0-.396.056-.604.283-.208.227-.792.774-.792 1.888 0 1.113.811 2.19 1.05 2.51.131.166 2.41 3.648 5.166 4.75.656.262 1.168.419 1.568.546.659.207 1.259.178 1.733.108.528-.078 1.343-.548 1.532-1.077.19-.528.19-.981.133-1.076-.057-.095-.208-.151-.435-.264z"/></svg>
+                   <span>WhatsApp Booking</span>
+                </a>
+                
+                <a href="mailto:contact@exaltedmercury.com?subject=Inquiry%20from%20Exalted%20Mercury" 
+                   class="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold px-8 py-4 rounded-full shadow-2xl transform hover:scale-105 transition duration-300 tracking-widest uppercase text-xs flex items-center justify-center space-x-3">
+                   <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L22 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                   </svg>
+                   <span>Direct Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 border-t border-gray-950 text-center text-[10px] text-gray-600 tracking-widest uppercase bg-[#04060d]">
+        &copy; 2026 Exalted Mercury. All Projects Synchronized.
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Init animation layouts with sharp cubic-easings
+        AOS.init({
+            duration: 900,
+            easing: 'ease-out-quad',
+            once: true
+        });
+    </script>
+</body>
+</html>
